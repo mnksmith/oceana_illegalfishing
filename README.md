@@ -7,6 +7,10 @@ We are facing an ocean health crisis.  Climate change, ocean acidification, poll
 
 By nature, combating IUU fishing is a formidable challenge.  It often takes place outside of governmental jurisdiction on the high seas or in the waters of developing countries that lack the resources to enforce the law.  Illegal fishing vessels change names, owners, and flags frequently, and will turn off or manipulate required tracking systems to obscure their locations.  The fish is transported by third-party reefer ships and brought to market hidden under a false species designation.  Licensing and other documentation is forged and money earned disappears behind the borders of haven countries.  Even efforts to define the scope of the problem have been confounded by this complex tangle of issues and its globalized nature.
 
+## Oceana and Global Fishing Watch
+
+[Oceana](https://oceana.org/) is a global ocean conservation organization based in the United States. One of Oceana's priority campaigns is combating IUU and seafood fraud ([link](https://usa.oceana.org/our-campaigns/illegal_fishing_and_seafood_fraud/campaign)). A primary partner in tracking and identifying IUU is the [Global Fishing Watch](https://globalfishingwatch.org/) (GFW), an offshoot of Oceana with a narrower mandate of sustainable fishing through transparency.
+
 ## ML strategies for detecting illegal fishing
 
 
