@@ -19,7 +19,7 @@ The primary tool by which governments and watchdog organizations like GFW and Oc
 
 ### The goal
 
-With all of this data, the hope is that a machine learning algorithm is capable of sorting through the chaos and flagging vessel tracks that look like IUU. In order to train the algorithm, GFW has had fisheries/maritime experts manually tag thousands of vessel tracks with the type of ship, its size, and its type of gear. Vessels exhibiting fishing behavior where it is prohibited can be quickly identified, located, and brought to the attention of authorities.
+With all of this data, the hope is that a machine learning algorithm is capable of sorting through the chaos and flagging vessel tracks that look like IUU. In order to train the algorithm, GFW has had fisheries/maritime experts manually tag thousands of vessel tracks with the type of ship, its size, its type of gear, and based on those properties, whether it's fishing. Vessels exhibiting fishing behavior where it is prohibited can be quickly identified, located, and brought to the attention of authorities.
 
 ### The contents of this repo
 
