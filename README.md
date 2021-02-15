@@ -23,5 +23,5 @@ With all of this data, the hope is that a machine learning algorithm is capable 
 
 ### The contents of this repo
 
-Here you can find some tagged vessel tracking training data from GFW, and an example notebook for a first-pass classifier based on a logistic regression.
+Here you can find an example notebook for a first-pass classifier based on a logistic regression. Feel free to reach out for train/test vessel track datasets.
 
