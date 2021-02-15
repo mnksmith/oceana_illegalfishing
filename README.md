@@ -9,8 +9,19 @@ By nature, combating IUU fishing is a formidable challenge.  It often takes plac
 
 ## Oceana and Global Fishing Watch
 
-[Oceana](https://oceana.org/) is a global ocean conservation organization based in the United States. One of Oceana's priority campaigns is combating IUU and seafood fraud ([link](https://usa.oceana.org/our-campaigns/illegal_fishing_and_seafood_fraud/campaign)). A primary partner in tracking and identifying IUU is the [Global Fishing Watch](https://globalfishingwatch.org/) (GFW), an offshoot of Oceana with a narrower mandate of sustainable fishing through transparency.
+[Oceana](https://oceana.org/) is a global ocean conservation organization based in the United States. One of Oceana's priority campaigns is combating IUU and seafood fraud ([link](https://usa.oceana.org/our-campaigns/illegal_fishing_and_seafood_fraud/campaign)). A primary partner in tracking and identifying IUU is the [Global Fishing Watch](https://globalfishingwatch.org/) (GFW), an offshoot of Oceana with a narrower mandate of sustainable fishing through transparency. GFW hosts a live map of global fishing activity, and analyzes patterns to identify suspicious patterns and locations in fishing behavior.
 
 ## ML strategies for detecting illegal fishing
 
+### The data
+
+The primary tool by which governments and watchdog organizations like GFW and Oceana can monitor fishing activity is vessel tracking data. The International Maritime Organization and many national governments require all vessels to carry AIS (automatic identification system). These devices automatically ping satellites with the vessel's location, primarily to avoid collisions. All told, an enormous amount of location data is available for public use, and private/secure tracking is available via government cooperation in other impactful fishing regions of the world like Indonesia. Note: though only a fraction of all fishing vessels in the world have AIS, the vessels that do are responsible for an outsized proportion of fishing volume.
+
+### The goal
+
+With all of this data, the hope is that a machine learning algorithm is capable of sorting through the chaos and flagging vessel tracks that look like IUU. In order to train the algorithm, GFW has had fisheries/maritime experts manually tag thousands of vessel tracks with the type of ship, its size, and its type of gear. Vessels exhibiting fishing behavior where it is prohibited can be quickly identified, located, and brought to the attention of authorities.
+
+### The contents of this repo
+
+Here you can find some tagged vessel tracking training data from GFW, and an example notebook for a first-pass classifier based on a logistic regression.
 
